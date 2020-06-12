@@ -10,9 +10,6 @@ body {
   font-size: small;
   font-family: Arial, Helvetica, sans-serif;
 }
-#navbar span {
-  color: greenyellow;
-}
 
 #navbar .navbar-container {
   display: flex;
@@ -29,6 +26,10 @@ body {
   list-style: none;
 }
 
+.logo i {
+  color: gold;
+}
+
 .uls ul li {
   margin-right: 4rem;
   padding: 0.5rem 1rem;
@@ -41,11 +42,12 @@ body {
 }
 
 .my-grid span {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 #section-a .section-a-container {
   margin: 1rem;
+  overflow: hidden;
 }
 
 .my-grid {
